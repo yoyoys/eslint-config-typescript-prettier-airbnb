@@ -1,10 +1,14 @@
 {
   "name": "@yoyoys/eslint-config-typescript-prettier-airbnb",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "my lint config for airbnb, prettier, typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoyoys/eslint-config-typescript-prettier-airbnb"
   },
   "keywords": [
     "airbnb",
