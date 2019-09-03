@@ -21,6 +21,15 @@ module.exports = {
     }],
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
+    // provide by prettier
+    'semi': 'off',
+    'arrow-parens': 'off',
+    'object-curly-spacing': 'off',
+    'object-curly-newline': 'off',
+    'comma-dangle': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'indent': 0,
+    'space-before-blocks': 0,
   },
   parserOptions: {
     sourceType: 'module',
