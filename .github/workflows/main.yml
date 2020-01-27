@@ -1,0 +1,15 @@
+name: CI
+
+on: [release]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Publish if version has been updated
+      uses: pascalgn/npm-publish-action@1.1.0
+      env: ${{ secrets.NPM_AUTH_TOKEN }}
+      
