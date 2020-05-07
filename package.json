@@ -1,6 +1,6 @@
 {
   "name": "@yoyoys/eslint-config-typescript-prettier-airbnb",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "description": "my lint config for airbnb, prettier, typescript",
   "main": "index.js",
   "scripts": {
