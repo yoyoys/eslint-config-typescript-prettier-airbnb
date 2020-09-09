@@ -1,6 +1,6 @@
 {
   "name": "@yoyoys/eslint-config-typescript-prettier-airbnb",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "my lint config for airbnb, prettier, typescript",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
   "author": "yoyoys",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^5.3.0 || ^6.7.2",
-    "typescript": "^3.7.3"
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.3 || ^4.0.0"
   },
   "dependencies": {
     "prettier": "^1.19.1",
